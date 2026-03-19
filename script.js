@@ -500,7 +500,7 @@ function startPhotoCapture(photos) {
             
             setTimeout(() => {
                 progressDiv.textContent = '🎉 PHOTO STRIP COMPLETE! 🎉';
-                photoBtn.textContent = 'CETAK LAGI';
+                photoBtn.textContent = 'READY TO PRINT';
                 photoBtn.disabled = false;
                 
                 photoBtn.removeEventListener('click', startPhotoShow);
@@ -518,7 +518,7 @@ function startNewSession() {
     
     // Reset for new session
     progressDiv.textContent = 'READY TO PRINT';
-    photoBtn.textContent = 'MULAI CETAK';
+    photoBtn.textContent = 'READY TO PRINT';
     
     // Remove old listener and add original
     photoBtn.removeEventListener('click', startNewSession);
