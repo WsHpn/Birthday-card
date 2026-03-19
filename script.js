@@ -321,15 +321,15 @@ function startPhotoShow() {
     // Local photos from the images folder
  const photos = [
     {
-        text: 'Our First Date 💕',
+        text: 'You are so beautiful',
         image: 'images/photo1.jpg.jpeg'
     },
     {
-        text: 'Birthday Moment 🎂',
+        text: 'You are prettier than the moon 🌖',
         image: 'images/photo2.jpg.jpeg'
     },
     {
-        text: 'Adventure Time 🌟',
+        text: 'Cute baby',
         image: 'images/photo3.jpg.jpeg'
     },
     {
