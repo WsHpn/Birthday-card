@@ -609,7 +609,7 @@ function loadSpotifyPlaylist(playlistNumber) {
     const playlists = {
         1: {
            // Replace with your first playlist
-            embedUrl: 'https://open.spotify.com/emnbed/playlist/4bwn4tj8HEFwVvkCvsgxax?si=JizbiYaARQ2c3C18HGLNww&pi=cS2o4x98QsibC',
+            embedUrl: 'https://open.spotify.com/embed/playlist/5DIYwfZV7rhp3kPtQFytp2?si=ee4cf5a541984069',
             name: 'Disney Songs!',
             description: 'Couldnt find good happy birthday songs..sorry'
         },
