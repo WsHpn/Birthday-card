@@ -333,11 +333,11 @@ function startPhotoShow() {
         image: 'images/photo3.jpg.jpeg'
     },
     {
-        text: 'A true princess ❤️',
+        text: 'A true princess',
         image: 'images/photo4.jpg.jpeg'
     },
     {
-        text: 'Hehe 🥰',
+        text: 'Hehe',
         image: 'images/photo5.jpg.jpeg'
     },
     {
@@ -345,11 +345,11 @@ function startPhotoShow() {
         image: 'images/photo6.jpg.jpeg'
     },
     {
-        text: 'Adorable ☀️',
+        text: 'My sweet girl',
         image: 'images/photo7.jpg.jpeg'
     },
     {
-        text: 'My baby with her baby 💖',
+        text: 'My baby with her baby!',
         image: 'images/photo8.jpg.jpeg'
     }
 ];
