@@ -611,19 +611,19 @@ function loadSpotifyPlaylist(playlistNumber) {
            // Replace with your first playlist
             embedUrl: 'https://open.spotify.com/embed/playlist/37i9dQZF1DWYtQSOiZF6hj?si=0b945793c2934ba1',
             name: 'Birthday Special Mix',
-            description: 'Special songs for your special day ✨'
+            description: 'Random birthday playlist'
         },
         2: {
             // Replace with your second playlist
-            embedUrl: 'https://open.spotify.com/embed/playlist/3gPSenyxZMdB3A54HeEruz?si=6b4dec830d4f4a48',
-            name: 'Love Songs Collection',
-            description: 'The best love songs for us ❤️'
+            embedUrl: 'https://open.spotify.com/embed/playlist/5J5gDa63qzgiXrirLtlC4j?si=bTpxZ2ZJRXalkZzeOHBE1Q&pi=ea5bdjo1T5eXp',
+            name: 'You are the closest thing i will ever get to heaven',
+            description: 'Songs that remind me of you my love'
         },
         3: {
             /// Replace with your third playlist
-            embedUrl: 'https://open.spotify.com/embed/playlist/4dlQ4JHE6abxv38aae2HL1?si=95730613199e4dad',
-            name: 'Happy Memories',
-            description: 'Songs that remind us of beautiful memories 🌟'
+            embedUrl: 'https://open.spotify.com/embed/playlist/5EtV8KuwdOzl3zaRrjdnJp?si=OWZ9roinTE2a-Gnxk9Ur9g&pi=y9shF3ivR9Gs-',
+            name: 'Our playlist',
+            description: 'May or maybe not my most prized possessions'
         }
     };
     
