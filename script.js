@@ -290,10 +290,10 @@ function initializeGallery() {
         </div>
         <div class="photobox-progress">READY TO PRINT</div>
         <div class="photo-display">
-            <div class="photo-placeholder">Press MULAI CETAK to start photo session</div>
+            <div class="photo-placeholder">Press START PRINTING to start photo session</div>
         </div>
         <div class="photobox-controls">
-            <button class="photo-btn">MULAI CETAK</button>
+            <button class="photo-btn">START PRINTING</button>
         </div>
     `;
     
@@ -318,7 +318,7 @@ function startPhotoShow() {
     
     if (!photoBtn || !photoDisplay || !progressDiv) return;
     
-    // Foto lokal dari folder images
+    // Local photos from the images folder
     const photos = [
         {
             text: 'Our First Date 💕',
@@ -356,7 +356,7 @@ function startPhotoShow() {
     
     console.log('Total photos:', photos.length);
     
-    photoBtn.textContent = 'MENCETAK...';
+    photoBtn.textContent = 'Printing...';
     photoBtn.disabled = true;
     progressDiv.textContent = 'INITIALIZING CAMERA...';
     
@@ -500,7 +500,7 @@ function startPhotoCapture(photos) {
             
             setTimeout(() => {
                 progressDiv.textContent = '🎉 PHOTO STRIP COMPLETE! 🎉';
-                photoBtn.textContent = 'READY TO PRINT';
+                photoBtn.textContent = 'PRINT AGAIN';
                 photoBtn.disabled = false;
                 
                 photoBtn.removeEventListener('click', startPhotoShow);
@@ -518,7 +518,7 @@ function startNewSession() {
     
     // Reset for new session
     progressDiv.textContent = 'READY TO PRINT';
-    photoBtn.textContent = 'READY TO PRINT';
+    photoBtn.textContent = 'START PRINTING';
     
     // Remove old listener and add original
     photoBtn.removeEventListener('click', startNewSession);
@@ -527,7 +527,7 @@ function startNewSession() {
     // Clear display
     const photoDisplay = document.querySelector('.photo-display');
     if (photoDisplay) {
-        photoDisplay.innerHTML = '<div class="photo-placeholder">Press MULAI CETAK to start photo session</div>';
+        photoDisplay.innerHTML = '<div class="photo-placeholder">Press START PRINTING to start photo session</div>';
     }
     
     // CRITICAL: Reset photo index to exactly 0
@@ -566,7 +566,7 @@ function initializeMusicPlayer() {
             </div>
             <div class="music-info">
                 <div class="current-playlist">Now Playing: Birthday Special Mix</div>
-                <div class="playlist-description">Lagu-lagu spesial untuk hari istimewa kamu ✨</div>
+                <div class="playlist-description">Special songs for your special day ✨</div>
             </div>
         </div>
     `;
@@ -605,25 +605,25 @@ function loadSpotifyPlaylist(playlistNumber) {
     
     if (!iframe) return;
     
-    // Playlist data - Ganti dengan link playlist Spotify kamu
+          // Playlist data - Replace with your Spotify playlist link
     const playlists = {
         1: {
-            // Ganti dengan playlist pertama kamu
+           // Replace with your first playlist
             embedUrl: 'https://open.spotify.com/embed/playlist/37i9dQZF1DWYtQSOiZF6hj?si=0b945793c2934ba1',
             name: 'Birthday Special Mix',
-            description: 'Lagu-lagu spesial untuk hari istimewa kamu ✨'
+            description: 'Special songs for your special day ✨'
         },
         2: {
-            // Ganti dengan playlist kedua kamu
+            // Replace with your second playlist
             embedUrl: 'https://open.spotify.com/embed/playlist/3gPSenyxZMdB3A54HeEruz?si=6b4dec830d4f4a48',
             name: 'Love Songs Collection',
-            description: 'Koleksi lagu cinta terbaik untuk kita ❤️'
+            description: 'The best love songs for us ❤️'
         },
         3: {
-            // Ganti dengan playlist ketiga kamu
+            /// Replace with your third playlist
             embedUrl: 'https://open.spotify.com/embed/playlist/4dlQ4JHE6abxv38aae2HL1?si=95730613199e4dad',
             name: 'Happy Memories',
-            description: 'Lagu-lagu yang mengingatkan kenangan indah 🌟'
+            description: 'Songs that remind us of beautiful memories 🌟'
         }
     };
     
