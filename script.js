@@ -319,40 +319,40 @@ function startPhotoShow() {
     if (!photoBtn || !photoDisplay || !progressDiv) return;
     
     // Local photos from the images folder
-    const photos = [
-        {
-            text: 'Our First Date 💕',
-            image: './images/photo1.jpg'
-        },
-        {
-            text: 'Birthday Moment 🎂',
-            image: './images/photo2.jpg'
-        },
-        {
-            text: 'Adventure Time 🌟',
-            image: './images/photo3.jpg'
-        },
-        {
-            text: 'Cozy Together ❤️',
-            image: './images/photo4.jpg'
-        },
-        {
-            text: 'Sweet Memories 🥰',
-            image: './images/photo5.jpg'
-        },
-        {
-            text: 'Laugh Together 😂',
-            image: './images/photo6.jpg'
-        },
-        {
-            text: 'Perfect Day ☀️',
-            image: './images/photo7.jpg'
-        },
-        {
-            text: 'Love Forever 💖',
-            image: './images/photo8.jpg'
-        }
-    ];
+   const photos = [
+    {
+        text: 'Our First Date 💕',
+        image: './images/photo1.jpg.jpeg'
+    },
+    {
+        text: 'Birthday Moment 🎂',
+        image: './images/photo2.jpg.jpeg'
+    },
+    {
+        text: 'Adventure Time 🌟',
+        image: './images/photo3.jpg.jpeg'
+    },
+    {
+        text: 'Cozy Together ❤️',
+        image: './images/photo4.jpg.jpeg'
+    },
+    {
+        text: 'Sweet Memories 🥰',
+        image: './images/photo5.jpg.jpeg'
+    },
+    {
+        text: 'Laugh Together 😂',
+        image: './images/photo6.jpg.jpeg'
+    },
+    {
+        text: 'Perfect Day ☀️',
+        image: './images/photo7.jpg.jpeg'
+    },
+    {
+        text: 'Love Forever 💖',
+        image: './images/photo8.jpg.jpeg'
+    }
+];
     
     console.log('Total photos:', photos.length);
     
