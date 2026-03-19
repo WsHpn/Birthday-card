@@ -333,23 +333,23 @@ function startPhotoShow() {
         image: 'images/photo3.jpg.jpeg'
     },
     {
-        text: 'Cozy Together ❤️',
+        text: 'A true princess ❤️',
         image: 'images/photo4.jpg.jpeg'
     },
     {
-        text: 'Sweet Memories 🥰',
+        text: 'Hehe 🥰',
         image: 'images/photo5.jpg.jpeg'
     },
     {
-        text: 'Laugh Together 😂',
+        text: 'An angel in human form',
         image: 'images/photo6.jpg.jpeg'
     },
     {
-        text: 'Perfect Day ☀️',
+        text: 'Adorable ☀️',
         image: 'images/photo7.jpg.jpeg'
     },
     {
-        text: 'Love Forever 💖',
+        text: 'My baby with her baby 💖',
         image: 'images/photo8.jpg.jpeg'
     }
 ];
