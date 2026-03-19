@@ -609,9 +609,9 @@ function loadSpotifyPlaylist(playlistNumber) {
     const playlists = {
         1: {
            // Replace with your first playlist
-            embedUrl: 'https://open.spotify.com/embed/playlist/37i9dQZF1DWYtQSOiZF6hj?si=0b945793c2934ba1',
-            name: 'Birthday Special Mix',
-            description: 'Random birthday playlist'
+            embedUrl: 'https://open.spotify.com/emnbed/playlist/4bwn4tj8HEFwVvkCvsgxax?si=JizbiYaARQ2c3C18HGLNww&pi=cS2o4x98QsibC',
+            name: 'Disney Songs!',
+            description: 'Couldnt find good happy birthday songs..sorry'
         },
         2: {
             // Replace with your second playlist
